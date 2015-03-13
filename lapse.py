@@ -462,11 +462,11 @@ while(True):
     screen.blit(label, (10, 2))
   if screenMode == 1:
     myfont = pygame.font.SysFont("Arial", 30)
-    label = myfont.render("Мотор/х:" , 1, (255,255,255))
+    label = myfont.render("Motor/s:" , 1, (255,255,255))
     screen.blit(label, (10, 10))
-    label = myfont.render("Хоорондох/з:" , 1, (255,255,255))
+    label = myfont.render("Dundah/z:" , 1, (255,255,255))
     screen.blit(label, (10, 70))
-    label = myfont.render("Зургийн/т:" , 1, (255,255,255))
+    label = myfont.render("Zurgiin/t:" , 1, (255,255,255))
     screen.blit(label, (10,130))
 
     label = myfont.render(str(v['Pulse']) + "ms" , 1, (255,255,255))
@@ -478,13 +478,13 @@ while(True):
 
   if screenMode == 0:
     myfont = pygame.font.SysFont("Arial", 30)
-    label = myfont.render("Мотор/х:" , 1, (255,255,255))
+    label = myfont.render("Motor/s:" , 1, (255,255,255))
     screen.blit(label, (10, 10))
-    label = myfont.render("Хоорондох/з:" , 1, (255,255,255))
+    label = myfont.render("Dundah/z:" , 1, (255,255,255))
     screen.blit(label, (10, 50))
-    label = myfont.render("Зургийн/т:" , 1, (255,255,255))
+    label = myfont.render("Zurgiin/t:" , 1, (255,255,255))
     screen.blit(label, (10, 90))
-    label = myfont.render("Зарцуулах/х:" , 1, (255,255,255))
+    label = myfont.render("Zartsuulah/h:" , 1, (255,255,255))
     screen.blit(label, (10,130))
 
     label = myfont.render(str(v['Pulse']) + "ms" , 1, (255,255,255))
